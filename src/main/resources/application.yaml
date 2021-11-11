@@ -1,0 +1,7 @@
+server:
+  port: 8888
+camera:
+  ip: 10.106.1.20
+  username: admin
+  password: a1234567
+  port: 18000
