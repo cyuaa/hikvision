@@ -76,7 +76,7 @@ public class MemberFlowUploadCallBackImpl implements HCNetSDK.FMSGCallBack_V31 {
                 body.put("leavePeople", strPDCResult.dwLeaveNum);
                 body.put("orgId", 337);
 
-                String result = HttpClientUtil.doPost("https://sjjxapi.tongshike.cn/camera", body, header);
+                String result = HttpClientUtil.doPost("https://sjjxapi.ulearning.cn/camera", body, header);
                 log.info("Camera Data Send Result: {}", result);
 
             }
